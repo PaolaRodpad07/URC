@@ -33,6 +33,7 @@ app = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.CYBORG]
 )
+server=app.server
 
 # Estilos personalizados para tema oscuro
 app.layout = dbc.Container(
